@@ -22,11 +22,6 @@
                         <input type="text"   id="nomeCompleto" required>
 
                 </div>
-                    <div class="form-group">
-                        <label for="dataNascimento">Data de nascimento:</label>
-                        <input type="text"   id="dataNascimento" required>
-    
-                    </div>
 
 
                     <div class="form-group">
@@ -35,6 +30,12 @@
     
                     </div>
 
+
+                    <div class="form-group">
+                        <label for="dataNascimento">Data de nascimento:</label>
+                        <input type="date"   id="dataNascimento"        placeholder="99/99/9999">
+    
+                    </div>
                     <div class="form-group">
                         <label for="telefone">Telefone:</label>
                         <input type="tel"   id="telefone" placeholder="(99) 99999-9999" pattern="(\([0-9]{2}\)\s([9]{1})?([0-9]{4}))" required>
@@ -42,13 +43,19 @@
 
                      <div class="form-group">
                         <label for="email">seu e-mail:</label>
-                        <input type="text"   id="email" required>
+                        <input type="text"   id="email" placeholder="xxxxxx_123@gmail.com">
     
                     </div>
                     <div class="form-group">
                         <label for="suaIdade">Sua idade:</label>
-                        <input type="text"   id="suaIdade">   <required>
+                        <input type="number"   id="suaIdade"   required>
     
+
+                        <div class="form-group">
+                            <label for="cep">informe seu CEP:</label>
+                            <input type="text"   id="cep" placeholder="99999-999">
+        
+                        </div>
                     </div>
                     <div class="form-group">
                         <label for="informacoesProfissionais">informacões profissionais:</label>
@@ -92,25 +99,25 @@
                       </form>
 
                       <div class="form-group">
-                        <label for="nacionalidade">Nacionalidade:</label>
+                        <label for="nacionalidade">Sua nacionalidade:</label>
                         <input type="text"   id="nacionalidade">
     
                     </div>
+                    
 
 
-
+                    <div class="form-group">
+                        <label for="doenca">Você posssui alguma doença?</label>
+                        <input type="text"   id="doenca"      placeholder="Se não tiver, pode deixar em branco">
+    
+                    </div>
                     <div 
                          for="enviar"> <button>Enviar</button>
             
                     </div>
 
             </div>
-
-
-            
-
-                
-
+    
             
         </main>
 

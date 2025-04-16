@@ -13,14 +13,14 @@ button{
 .container {
     max-width: 800px;
     margin: 0 auto;
-    background-color: #f3f3f3;
+    background-color: #ffffff;
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0,0,0,0.1);
 }
 
 h1 {
-    color: #2c3e50;
+    color: #000000;
     text-align: center;
     margin-bottom: 30px;
 }
@@ -31,8 +31,8 @@ h1 {
 
 label {
     display: block;
-    margin-bottom: 8px;
-    color: #34495e;
+    margin-bottom: 10px;
+    color: #000000;
     font-weight: bold;
 }
 
