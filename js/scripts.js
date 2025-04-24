@@ -13,4 +13,3 @@ document.addEventListener('DOMContentLoaded', function() {
         alert('Formulário enviado com sucesso!');
         // form.submit(); // Descomente esta linha para enviar realmente o formulário
     });
-    
