@@ -14,7 +14,7 @@
         <main>
             
             <div class="container">
-                <h1>Intrevista de emprego </h1>
+                <h1>Entrevista de emprego</h1>
                 
                 <form id="formPessoal">
                     <div class="form-group">
@@ -42,7 +42,7 @@
                      </div>
 
                      <div class="form-group">
-                        <label for="email">seu e-mail:</label>
+                        <label for="email">Seu e-mail:</label>
                         <input type="text"   id="email" placeholder="xxxxxx_123@gmail.com">
     
                     </div>
@@ -74,7 +74,7 @@
                           <option value="Feminino">Feminino</option>
                           <option value="Masculino">Masculino</option>
                         </select>
-                        <input type="submit">
+                        
                       </form>
 
                       <div class="form-group">
@@ -85,7 +85,7 @@
 
                     <div class="form-group">
                         <label for="seuRg">Informe seu RG:</label>
-                        <input type="text"   id="seuRg"     placeholder="99.999.999-9"       pattern="(\([0-9]{2}\)\s([9]{1})?([0-9]{4}))" required>
+                        <input type="text"   id="seuRg"     placeholder="99.999.999-9"  pattern="(\([0-9]{2}\)\s([9]{1})?([0-9]{4}))" required>
                     
                     </div>
 
@@ -95,7 +95,7 @@
                           <option value="Solteiro">Solteiro</option>
                           <option value="Casado">Casado</option>
                         </select>
-                        <input type="submit">
+                       
                       </form>
 
                       <div class="form-group">
@@ -103,20 +103,77 @@
                         <input type="text"   id="nacionalidade">
     
                     </div>
-                    
+                    <form action="/action_page.php">
+                        <label for="renda">Qual sua renda?</label>
+                        <select id="renda" name="renda">
+                          <option value="renda">nenhuma</option>
+                          <option value="renda">100 até 500 R$</option>
+                          <option value="renda">600 até 900 R$</option>
+                          <option value="renda">Salário mínio ou mais</option>
+                        </select>
+                       
+                      </form>
 
+
+                      <form action="/action_page.php">
+                        <label for="escolaridade">Sua escolaridade:</label>
+                        <select id="escolaridade" name="renda">
+                          <option value="escolaridade">Fundamental incompleto</option>
+                          <option value="escolaridade">Fundamental completo</option>
+                          <option value="renda">Ensino médio incompleto</option>
+                          <option value="renda">Ensino médio completo</option>
+                        </select>
+                       
+                      </form>
 
                     <div class="form-group">
                         <label for="doenca">Você posssui alguma doença?</label>
-                        <input type="text"   id="doenca"      placeholder="Se não tiver, pode deixar em branco">
+                        <input type="text"   id="doenca"  placeholder="Se não tiver, pode deixar em branco">
     
                     </div>
-                    <div 
-                         for="enviar"> <button>Enviar</button>
-            
+                    
+                    <div class="form-group">
+                        <label for="livres">O que você faz nos tempos livres?</label>
+                        <input type="text"   id="livres">
+    
+                    </div>
+
+                    
+                    <div class="form-group">
+                        <label for="cor">Qual a sua cor favorita?</label>
+                        <input type="text"   id="cor"      placeholder="Se quiser pode falar mais de uma">
+    
+                    </div>
+                     
+                    <div class="form-group">
+                        <label for="carro">Você possui carro?</label>
+                        <input type="text"   id="carro"      placeholder="Se não tiver, pode deixar em branco">
+    
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="filme">Qual seu filme ou série preferido?</label>
+                        <input type="text"   id="filme"      placeholder="Se não tiver, pode deixar em branco">
+    
+                    </div>
+
+                    <div class="form-group">
+                        <label for="esporte">Você pratica algum esporte? Qual?</label>
+                        <input type="text"   id="esporte"      placeholder="Se não tiver, pode deixar em branco">
+    
+                    </div>
+                    <div class="form-group">
+                        <label for="esporte">Você tem algum animal de estimação? Qual?</label>
+                        <input type="text"   id="esporte"      placeholder="Se não tiver, pode deixar em branco">
+    
+                    </div>
+
+                    <div class="form-group button-container">
+                        <button>Enviar</button>
                     </div>
 
             </div>
+
     
             
         </main>
